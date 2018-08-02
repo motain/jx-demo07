@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 803022518328.dkr.ecr.eu-west-1.amazonaws.com/onefootball-jenkins-user/jx-demo07
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: jx-demo07
